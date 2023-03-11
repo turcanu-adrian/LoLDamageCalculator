@@ -1,0 +1,21 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Application/bin/Debug/net6.0
+/Application/obj
+/Domain/obj
+/Domain/Domain.csproj
+/Domain/bin/Debug/net6.0
+/DamageCalculator/Properties
+/DamageCalculator/obj
+/DamageCalculator/DamageCalculator.csproj
+/DamageCalculator/bin/Debug/net6.0
+/DamageCalculator/appsettings.json
+/DamageCalculator/appsettings.Development.json
+/Application/Application.csproj
+/Infrastructure/obj
+/Infrastructure/bin/Debug/net6.0
+/Infrastructure/Infrastructure.csproj
+/DamageCalculator.sln
