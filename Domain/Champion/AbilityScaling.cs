@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Domain.Enums;
+using Microsoft.EntityFrameworkCore;
 
 namespace Domain.Champion
 {
-    public class ChampionStatVariants : BaseEntity
+    public class AbilityScaling : BaseEntity
     {
+        public StatType StatType { get; set; }
         public double Base { get; set; }
         public double Bonus { get; set; }
         public double Total { get; set; }
